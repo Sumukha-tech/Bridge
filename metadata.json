@@ -1,0 +1,6 @@
+{
+  "name": "AcademiaFlow",
+  "description": "A scalable school management platform featuring separate student and teacher portals for notes, assignments, event management, and direct communication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

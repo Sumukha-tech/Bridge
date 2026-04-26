@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-glass: rgba(255, 255, 255, 0.2);
+  --color-glass-border: rgba(255, 255, 255, 0.3);
+}
+
+@layer base {
+  body {
+    @apply antialiased text-slate-800;
+  }
+}
+
+.glass-card {
+  @apply bg-white/60 backdrop-blur-md border border-white/40 shadow-xl rounded-[2.5rem];
+}
+
+.glass-sidebar {
+  @apply bg-white/20 backdrop-blur-2xl border border-white/30 shadow-2xl;
+}
+
+.glass-header {
+  @apply bg-white/20 backdrop-blur-xl border border-white/30 shadow-lg;
+}
